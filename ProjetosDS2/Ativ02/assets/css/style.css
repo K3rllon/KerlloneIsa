@@ -35,3 +35,49 @@ body{
 .itens:hover{
     text-decoration: underline;
 }
+
+#titulo{
+    color: aliceblue;
+    text-align: center;
+    padding: 100px;
+    font-size: 30px;
+    font-family: Trebuchet MS, sans-serif;
+}
+#paragrafo{
+    margin: 30px;
+    font-size: 20px;
+}
+#butaoleiamais{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    background-color: #f1bc5a;
+    border: none;
+}
+#inicio{
+    background-image: url("/Ativ02/assets/imagens/fundo.jpg");
+}
+#sobre{
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulos{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bloco1{
+    padding: 50px;
+    margin: 100px;
+    display: inline-block;
+}
+#bloquinhos{
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
