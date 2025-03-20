@@ -60,24 +60,80 @@ body{
 #inicio{
     background-image: url("/Ativ02/assets/imagens/fundo.jpg");
 }
-#sobre{
+.sobre{
     background-color: #f3f3f3;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
-.titulos{
+.titulos1{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    color: #7c7b7b;
+}
+
+#titulos2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin: 20px;
 }
 
 #bloco1{
     padding: 50px;
-    margin: 100px;
+    margin: 10px;
     display: inline-block;
+    text-align: center;
 }
 #bloquinhos{
     background-color: #f3f3f3;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px;
+    text-align: left;
+    align-items: stretch;
+}
+.titulos{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.paragrafos{
+    font-family: Gill Sans, sans-serif;
+    font-size: 20px;
+    font-weight: 5;
+    color: #4d4d4d;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.Bloco{
+    padding: 30px;
+}
+
+.logos{
+    width: 220px;
+}
+
+#imagens{
+    text-align: center;
+    padding: 40px;
+}
+#caixa01{
+    padding: 100px;
+}
+.numeros{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.linkscaixa{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+}
+.linkscaixa:hover{
+    text-decoration: none;
 }
