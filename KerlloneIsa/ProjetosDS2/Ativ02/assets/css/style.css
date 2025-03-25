@@ -250,7 +250,7 @@ span {
 }
 .botoes{
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .preço{
     margin: 0px 0px 30px 30px;
@@ -261,4 +261,21 @@ span {
 #paragrafo2{
     margin-top: 0;
     line-height: 1.7;
+}
+#pontosdospacotes{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.pontos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2;
+}
+#caixa05{
+    padding: 70px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 80px;
+    font-family: Arial, Helvetica, sans-serif;
 }
