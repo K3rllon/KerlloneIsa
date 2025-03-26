@@ -1,53 +1,65 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: rgb(0, 0, 0);
+
+body {
+    background-color: #f3f3f3;
 }
-#barra{   
+
+#barra {
     background-color: #f1bc5a;
     padding: 20px;
     display: flex;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* mudei a fonte */
 }
-#mensagemdesign{
+
+#mensagemdesign {
     color: #000000;
-    text-decoration:none;
+    text-decoration: none;
 }
-#imagemdestaque{
+
+#imagemdestaque {
     background-image: url("imagens/fundo.jpg");
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#itensmenu{
+#itensmenu {
     display: flex;
     list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    /* mudei a fonte */
 }
-.itens{
+
+.itens {
     color: aliceblue;
     padding: 15px;
     text-decoration: none;
 }
-.itens:hover{
+
+.itens:hover {
     text-decoration: underline;
 }
 
-#titulo{
+#titulo {
     color: aliceblue;
     text-align: center;
     padding: 100px;
     font-size: 30px;
     font-family: Trebuchet MS, sans-serif;
 }
-#paragrafo{
+
+#paragrafo {
     margin: 30px;
     font-size: 20px;
 }
-#butaoleiamais{
+
+#butaoleiamais {
     width: 200px;
     height: 50px;
     border-radius: 50px;
@@ -57,35 +69,39 @@ body{
     background-color: #f1bc5a;
     border: none;
 }
-#inicio{
+
+#inicio {
     background-image: url("/Ativ02/assets/imagens/fundo.jpg");
 }
-.sobre{
+
+.sobre {
     background-color: #f3f3f3;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.titulos1{
+
+.titulos1 {
     font-family: Arial, Helvetica, sans-serif;
     margin: 20px;
     color: #7c7b7b;
 }
 
-#titulos2{
+#titulos2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     margin: 20px;
 }
 
-#bloco1{
+#bloco1 {
     padding: 50px;
     margin: 10px;
     display: inline-block;
     text-align: center;
 }
-#bloquinhos{
+
+#bloquinhos {
     background-color: #f3f3f3;
     display: flex;
     justify-content: center;
@@ -94,12 +110,13 @@ body{
     text-align: left;
     align-items: stretch;
 }
-.titulos{
+
+.titulos {
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
 }
 
-.paragrafos{
+.paragrafos {
     font-family: Gill Sans, sans-serif;
     font-size: 20px;
     font-weight: 5;
@@ -108,32 +125,236 @@ body{
     margin-bottom: 20px;
 }
 
-.Bloco{
+.Bloco {
     padding: 30px;
 }
 
-.logos{
+.logos {
     width: 220px;
 }
 
-#imagens{
+#imagens {
     text-align: center;
     padding: 40px;
+    background-color: #000000;
 }
-#caixa01{
+
+#caixa01 {
     padding: 100px;
 }
-.numeros{
+
+.numeros {
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
     font-size: 18px;
 }
-.linkscaixa{
+
+.linkscaixa {
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 17px;
 }
-.linkscaixa:hover{
+
+.linkscaixa:hover {
     text-decoration: none;
+}
+
+#caixa02 {
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 490px;
+    color: #000;
+    padding-top: 150px;
+    background-color: #f1bc5a;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: left;
+}
+
+#whatpeoplesay {
+    font-size: 15px;
+    margin: 0px 60px;
+    white-space: nowrap;
+}
+
+#texto {
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 50px;
+}
+
+#informaçoesdoautor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 265px;
+}
+
+#fotodaautora {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#nomedoautor {
+    font-size: 15px;
+}
+
+#caixadowhatpeoplesay {
+    height: 50%;
+    text-align: start;
+}
+
+#caixinha02 {
+    display: flex;
+    align-items: stretch;
+}
+
+#caixa03 {
+    margin-top: 140px;
+}
+
+#caixa04 {
+    display: flex;
+    margin: 20px 40px;
+}
+
+.caixasdepacotes {
+    border: 1px #000000 solid;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+span {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.botaogetstarted {
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    background-color: #000000;
+    border: none;
+    color: #f3f3f3;
+}
+.botoes{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.preço{
+    margin: 0px 0px 30px 30px;
+}
+.textodopeço{
+    margin: 0;
+}
+#paragrafo2{
+    margin-top: 0;
+    line-height: 1.7;
+}
+#pontosdospacotes{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.pontos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2;
+}
+#caixa05{
+    padding: 70px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#ingressartodo{
+    background-image: url("/Ativ02/assets/imagens/mulhertreinando.jpg");    
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 60px;
+    
+}
+
+#ingressar{
+    padding: 30px;
+    height: 20%;
+    width: 50%;
+    display: block;
+    border: 2px solid aliceblue;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin: 20, 30, 40,50px;
+    
+}
+
+#tituloingressar{
+    font-size: 45px;
+    font-family: Trebuchet MS, sans-serif;
+    color: aliceblue;
+}
+#paragrafoingressar{
+    color: aliceblue;
+    font-size: 18px;
+    font-family: Trebuchet MS, sans-serif;
+    margin-top: 20px;
+    line-height: 30px;
+}
+#botaoget{
+    padding: 10px;
+    border-radius: 100px;
+    background-color: #f1bc5a;
+    font-size: 18px;
+    border: 0;
+    font-family: Trebuchet MS, sans-serif;
+    height: 48px;
+    width: 180px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+#rodape{
+    background-color: #000000;
+    color: aliceblue;
+    padding-top: 100px;
+    padding-left: 30px;
+    
+}
+
+.titulosrodape{
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 25px;
+}
+
+#subtitulo{
+    margin-top: 4px;
+}
+
+.paragrafosrodape{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+#wordpress {
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+#wordpress:hover{
+    text-decoration: underline;
 }
