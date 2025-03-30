@@ -346,9 +346,11 @@ span {
 
 #divrodape01{
     width: 630px;
+    height: 210px;
 }
 #divrodape02{
-    width: 280px;
+    width: 320px;
+    height: 210px;
 }
 
 .titulosrodape{
@@ -374,29 +376,34 @@ span {
 #wordpress:hover{
     text-decoration: underline;
 }
-.botoesicones{
-    padding: 3px;
-    border-radius: 50%;
-    height: 25px;
-    width: 25px;
-    margin-right: 10px;
-    margin-top: 20px;
-    border: 0px;
+
+
+#formulario{
+    display: flex; 
 }
 
-.botoesicones:hover{
-    transform: scale(1.1);
+.linksredessociais{
+    background-color: #f3f3f3;
+    border-radius: 100%;
+    padding: 5px;
+    display: inline-flex;
+    width: auto;
+    height: auto;
+    margin-right: 13px;
 }
 
 .icones{
-    width: 16px;
-    height: 16px;
-    padding: 2px;
+    height: 15px;
+    width: 15px;
+    align-items: center;
+}
+.linksredessociais:hover{
+    transform: scale(1.1);
 }
 
-#formulario{
-    display: flex;
-    
+
+#linkicones{
+    margin-top: 20px;
 }
 
 #inputformulario{
