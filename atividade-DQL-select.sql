@@ -25,3 +25,33 @@ from vendas;
 
 select * from vendas
 where cidade = 'São Paulo';
+
+select * from vendas
+where produto = 'Camiseta'
+order by data_venda desc;
+
+select produto, sum(quantidade) as quantidade_total, avg(preco_unitario) as preco_medio
+from vendas
+group by produto;
+
+select produto, sum(quantidade) as quantidade_total
+from vendas
+group by produto
+having sum(quantidade) > 3;
+
+select * from vendas 
+order by data_venda asc
+limit 3;
+
+select cliente
+from vendas
+where quantidade is null;
+
+select cliente as "Nome do cliente", preco_unitario as "Preço por unidade"
+from vendas; 
+
+select cliente as "Nome do Cliente"
+from vendas;
+
+select preco_unitario as "Preço por Unidade"
+from vendas;
